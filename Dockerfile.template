@@ -1,6 +1,6 @@
 ### Use Debian Buster for a recent `nmcli` version
 ###
-FROM resin/%%RESIN_MACHINE_NAME%%-debian:buster-20180820
+FROM balenalib/%%BALENA_MACHINE_NAME%%-debian:buster
 
 ### D-Bus calls needs to be directed to the system bus that the host OS is listening on
 ###
